@@ -16,7 +16,7 @@ Aplikasi sederhana ini digunakan untuk melakukan pemesanan tiket konser secara O
 
 -   Database: e-ticketing
     Login Admin
--   Username: agenx@gmail.com
+-   Username: admin@gmail.com
 -   Password : 12345678
 
 ## Tahapan Installasi
