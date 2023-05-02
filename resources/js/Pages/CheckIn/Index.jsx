@@ -108,8 +108,8 @@ export default function CheckIn(props) {
                             </h3>
                         </div>
                         <div className='text-white ml-2 w-32 py-3 px-5' style={{'flex': '1'}}>
-                            <p className='mb-3 text-xs mb-0'> NO TIKET .</p>
-                            <p className='mb-3 text-md mb-0' id="noticket">  </p>
+                            <p className='mb-3 text-xs'> NO TIKET .</p>
+                            <p className='mb-3 text-md' id="noticket">  </p>
                         </div>
                     </div>
                     <div className="flex items-center justify-between ">

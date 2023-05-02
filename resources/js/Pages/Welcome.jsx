@@ -174,24 +174,19 @@ export default function Welcome(props) {
                             </>
                         )}
                     </div>
-
-                    <svg className="w-20 h-30 fill-current text-white mt-10 m-auto" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
-                        <path d="M18 3a1 1 0 00-1.196-.98l-10 2A1 1 0 006 5v9.114A4.369 4.369 0 005 14c-1.657 0-3 .895-3 2s1.343 2 3 2 3-.895 3-2V7.82l8-1.6v5.894A4.37 4.37 0 0015 12c-1.657 0-3 .895-3 2s1.343 2 3 2 3-.895 3-2V3z" />
-                    </svg>
-
-                    <h1 className='text-white text-4xl mt-2 font-bold'> Kolam Renang Tangeran Selatan </h1>
+                    <h1 className='text-white text-4xl font-bold uppercase mt-40'> Kolam Renang Tangeran Selatan </h1>
 
                     <div className='flex min-h-screen items-center justify-center bg-'>
-                        <button className='rounded-xl content-center bg-gray-300 p-3 hover:bg-gray-400' onClick={(e) => showModal(e)}> Beli Tiket </button>
+                        <button className='my-10 block mx-auto bg-gradient-to-r from-green-400 to-blue-500 hover:from-green-500 hover:to-blue-600 py-3 px-3 rounded-xl font-inter font-semibold text-white shadow-2xl' onClick={(e) => showModal(e)}> Beli Tiket </button>
                     </div>
 
                     <input type="checkbox" id="my-modal-3" className="modal-toggle" />
                     <div className="modal">
                         <div className="modal-box relative">
                             <label htmlFor="my-modal-3" className="btn btn-sm btn-circle absolute right-2 top-2">✕</label>
-                            <h1 className='text-lg font-bold text-white bg-red'> Kolam Renang Tangeran Selatan </h1>
+                            <h1 className='text-lg font-bold text-white bg-red'>Kolam Renang Tangeran Selatan </h1>
 
-                            <h3 className="text-lg font-bold">Beli Tiket</h3>
+                            <h3 className="text-lg font-bold text-slate-600">Beli Tiket</h3>
                             <p className="py-4 text-sm pt-0">Silakan isi biodata Anda</p>
 
                             <form onSubmit={submit}>
@@ -280,7 +275,7 @@ export default function Welcome(props) {
                     <label className='flex items-start'>
                         <div className="mx-auto flex-shrink-0 flex items-center justify-center h-12 w-12 rounded-full bg-green-100 sm:mx-0 sm:h-10 sm:w-10" id="icon">
                             <svg className="h-6 w-6 text-green-400" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2">
-                                <path strokeLinecap="round" strokeLinejoin="round" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                                {/*  */}
                             </svg>
                         </div>
                         <div className='ml-4'>
